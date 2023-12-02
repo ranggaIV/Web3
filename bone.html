@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Pendaftaran</h1>
+      <form id="registrationForm" onsubmit="return validateForm()">
+        <div class="form-group">
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" />
+        </div>
+        <div class="form-group">
+            <label for="alamat">alamat:</label></p>
+            <textarea id="alamat" name="alamat" rows="4" cols="50"></textarea>
+        </div>
+        <button type="submit">Daftar</button>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
